@@ -10,5 +10,6 @@ class BankAccount
   end
 
   def deposit(amount)
+  end
 
 end
