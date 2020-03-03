@@ -33,8 +33,11 @@ class Transfer
         return "Transaction rejected. Please check your account balance."
       end
     else
-      
+
     end
+  end
+
+  def reject_transaction
   end
 
 end
