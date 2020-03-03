@@ -17,4 +17,9 @@ class Transfer
     return false
   end
 
+  def execute_transaction
+    if self.valid?
+    end
+  end
+
 end
