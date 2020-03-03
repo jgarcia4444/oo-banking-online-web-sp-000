@@ -21,8 +21,8 @@ class Transfer
     if self.valid?
       self.receiver.deposit(self.amount)
       self.sender.balance -= self.amount
-      self.status == 'complete'
     end
+    self.status = "complete"
   end
 
 end
