@@ -22,6 +22,7 @@ class Transfer
       if self.sender.balance >= self.amount
         self.receiver.deposit(self.amount)
         self.sender.balance -= self.amount
+        self.status == 'complete'
       end
     end
   end
