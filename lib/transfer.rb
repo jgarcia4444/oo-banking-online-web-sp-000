@@ -28,6 +28,10 @@ class Transfer
         return "Transaction rejected. Please check your account balan
 ce."
       end
+    else
+      self.status = "Rejected"
+      return "Transaction rejected. Please check your account balan
+ce."
     end
   end
 
