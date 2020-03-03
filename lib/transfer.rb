@@ -21,7 +21,7 @@ class Transfer
     if self.valid?
       if self.sender.balance >= self.amount
         self.receiver.deposit(self.amount)
-        
+
       else
         self.status = "Rejected"
         return "Transaction rejected. Please check you balance."
