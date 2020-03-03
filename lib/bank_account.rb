@@ -24,4 +24,8 @@ class BankAccount
     return true
   end
 
+  def close_acount
+    self.status = 'closed'
+  end
+
 end
